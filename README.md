@@ -23,3 +23,4 @@ We are currently using a logistic regression model to make predictions on future
 ## Tableau 
 
 We may use Tableau to connect to our data sources, extract data into the sources and make visualizations of the data if needed. 
+
