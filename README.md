@@ -11,4 +11,10 @@
 
 - The <b>CO2_Data_to_Database.ipynb</b> Jupyter Notebook shows how the connection is made to the Postgres database and how the data is uploaded to the co2_data table.
 
-- We will be processing this data and adding other sets of data as we continue to develop this project.
+- Our second base data file is Resources/<b>clean_Global_temps_1901_to_2016.csv</b> and has 22736 rows and 4 columns.
+
+- This file has been uploaded to the <b>temperature_data</b> table in the Postgres database.<br><br>
+<img src=Resources/temperature_data_db.png></img><br>
+
+- Here is the ERD of our database:<br><br>
+<img src=Resources/ERD.png></img>
