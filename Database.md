@@ -17,8 +17,4 @@
 <img src=Resources/temperature_data_db.png></img><br>
 
 - Here is the ERD of our database:<br><br>
-<img src=Resources/ERD.png></img><br>
-
-- The database tables will be read into the machine learning model for analysis.
-
-
+<img src=Resources/ERD.png></img>
