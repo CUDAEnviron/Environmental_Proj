@@ -18,3 +18,5 @@
 
 - Here is the ERD of our database:<br><br>
 <img src=Resources/ERD.png></img>
+
+- The database tables will be read into the machine learning model for analysis.
