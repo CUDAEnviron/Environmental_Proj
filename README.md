@@ -19,7 +19,7 @@ We have used a Postgres SQL database hosted by Heroku. Our original file current
 
 ### Machine Learning Model 
 
-We are currently using a logistic regression model to make predictions on future emissions outcomes based on the data that includes the variables: temperature, CO2 emissions, population size and GDP. The model is trained using the train_test_split model from the scikit learn library. Thus far, we have measured an accuracy of approximately 99% (result = 0.9945) using the accuracy_score method.
+We are currently using a balanced random forest model to make predictions on emissions outcomes based on the data that includes the variables: temperature, CO2 emissions, population size and GDP. The model is trained using the train_test_split model from the scikit learn library. Thus far, we have measured an accuracy of approximately 99% (result = 0.9945) using the balanced_accuracy_score method.
 
 ### Tableau 
 
