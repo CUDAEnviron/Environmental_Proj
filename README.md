@@ -3,7 +3,7 @@
 ## Overview 
 
 For this project we will utilize various forms of technology to accomplish the task of showing 
-that there is a direct correlation between global temerature increase and an abundance of CO2 
+that there is a direct correlation between global temperature increase and an abundance of CO2 
 levels. To do so, we will analyze the data from csv datasets that include: an extensive collection of global temperature data and Carbon Dioxide (CO2) emissions on Gross Domestic Product (GDP) by country and/or region. We will use pythondata to detect and correct any discrepancy in the data before fitting it into our machine learning model. 
 
 ## Python -- Jupyter Notebook 
