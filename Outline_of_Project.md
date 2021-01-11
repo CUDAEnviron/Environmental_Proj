@@ -1,5 +1,4 @@
-<br><br>
-<img src=climate change google slides presentation/1.png></img><br>
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Dernaes_branch/climate%20change%20google%20slides%20presentation/1.PNG)
 
 <br><br>
 <img src=climate change google slides presentation/2.png></img><br>
