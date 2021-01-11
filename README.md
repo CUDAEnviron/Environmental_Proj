@@ -1,23 +1,22 @@
+
 # Charts
 
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart%20Desc.png)
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart.png)This Chart shows Co2 Per GDP by country.
 
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart.png)
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart%20Desc.png)This Chart shows Co2 Per GDP by country in Descending Order. 
 
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart_Top10.png)This Chart shows Co2 Per GDP by country (Top 10 Countries)
 
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart_Top10.png)
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Grid.png)
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Grid.png)This Chart shows Co2 Per GDP by country in Grid view. 
 
 
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Historical.png)
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Historical.png)This Chart shows a historical view of Co2 Per GDP by country.
 
 
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Map.png)
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Map.png)This Chart shows Co2 Per GDP by country in a map view.
 
 
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Dashboard.png)
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Dashboard.png)This Chart shows a dashboard of Co2 Per GDP by country.
 
 
 # Selected topic – Climate Change
