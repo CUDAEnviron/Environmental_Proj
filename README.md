@@ -1,3 +1,25 @@
+# Charts
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart%20Desc.png)
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart.png)
+
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart_Top10.png)
+
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Grid.png)
+
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Historical.png)
+
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Map.png)
+
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Dashboard.png)
+
+
 # Selected topic – Climate Change
 
 Climate refers to the long-term regional or even global average of temperature, humidity and rainfall patterns over seasons, years or decades. 
@@ -47,27 +69,6 @@ Determining this response is one of the main exercises of our project. As descri
 ## Predict future temperature change
 
 TBD
-
-# Charts
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart%20Desc.png)
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart.png)
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart_Top10.png)
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Grid.png)
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Historical.png)
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Map.png)
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Dashboard.png)
 
 
 
