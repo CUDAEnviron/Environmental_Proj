@@ -46,7 +46,10 @@ The deliverable will be a presentation with associated visualizations of sensiti
 
 Determining this response is one of the main exercises of our project. As described in the paper, we use 70 year of  historical data for more than 174 countries to arrive at this estimate. 
 
-# Charts
+# Dashboard
+The images below are pictures of some of the dashboard elements already completed using Tableau.  The charts are interactive on Tableau in that a viewer is able to see additional information from a pop up when the cursor hovers over an element.
+
+[Dashboard Storyboard](https://docs.google.com/presentation/d/1jqAKB2-zKY6F5MlkE73DkprPI5ff6Ttq-TXBxHXCZsk/edit#slide=id.p) 
 
 ### The below charts show summary data of our analysis of the Co2 data as it relates to GDP. 
 
