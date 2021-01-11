@@ -1,6 +1,9 @@
 
 # Charts
 
+## The below charts show summary data of our analysis of the Co2 data as it relates to GDP. 
+
+
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart.png)This Chart shows Co2 Per GDP by country.
 
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart%20Desc.png)This Chart shows Co2 Per GDP by country in Descending Order. 
