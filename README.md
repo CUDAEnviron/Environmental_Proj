@@ -1,28 +1,5 @@
 
 
-# Charts
-
-## The below charts show summary data of our analysis of the Co2 data as it relates to GDP. 
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart.png)This Chart shows Co2 Per GDP by country.
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart%20Desc.png)This Chart shows Co2 Per GDP by country in Descending Order. 
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart_Top10.png)This Chart shows Co2 Per GDP by country (Top 10 Countries)
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Grid.png)This Chart shows Co2 Per GDP by country in Grid view. 
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Historical.png)This Chart shows a historical view of Co2 Per GDP by country.
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Map.png)This Chart shows Co2 Per GDP by country in a map view.
-
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Dashboard.png)This Chart shows a dashboard of Co2 Per GDP by country.
-
-
 # Selected topic – Climate Change
 
 Climate refers to the long-term regional or even global average of temperature, humidity and rainfall patterns over seasons, years or decades. 
@@ -69,13 +46,28 @@ The deliverable will be a presentation with associated visualizations of sensiti
 
 Determining this response is one of the main exercises of our project. As described in the paper, we use 70 year of  historical data for more than 174 countries to arrive at this estimate. 
 
-## Predict future temperature change
+# Charts
 
-TBD
+## The below charts show summary data of our analysis of the Co2 data as it relates to GDP. 
 
 
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart.png)This Chart shows Co2 Per GDP by country.
 
-# Environmental Project
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart%20Desc.png)This Chart shows Co2 Per GDP by country in Descending Order. 
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart_Top10.png)This Chart shows Co2 Per GDP by country (Top 10 Countries)
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Grid.png)This Chart shows Co2 Per GDP by country in Grid view. 
+
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Historical.png)This Chart shows a historical view of Co2 Per GDP by country.
+
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Map.png)This Chart shows Co2 Per GDP by country in a map view.
+
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Dashboard.png)This Chart shows a dashboard of Co2 Per GDP by country.
+
 
 ## Technology use for Climate Change project
 
@@ -84,10 +76,6 @@ TBD
 For this project we will utilize various forms of technology to accomplish the task of showing 
 that there is a direct correlation between global temperature increase and an abundance of CO2 
 levels. To do so, we will analyze the data from csv datasets that include: an extensive collection of global temperature data and Carbon Dioxide (CO2) emissions on Gross Domestic Product (GDP) by country and/or region. We will use pythondata to detect and correct any discrepancy in the data before fitting it into our machine learning model. 
-
-### Communication Protocols
-
-We meet at least once a week on zoom to check in on the progress we each have made, and communicate on our Slack channel when we have questions for the group between meetings.
 
 ### Python -- Jupyter Notebook 
 
