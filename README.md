@@ -58,7 +58,7 @@ The images below are pictures of some of the dashboard elements already complete
 
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart%20Desc.png)This Chart shows Co2 Per GDP by country in Descending Order. 
 
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Bar%20Chart_Top10.png)This Chart shows Co2 Per GDP by country (Top 10 Countries)
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Images/Co2%20Per%20GDP%20Bar%20Chart_Top10_2016.png)This Chart shows Co2 Per GDP by country (Top 10 Countries)
 
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Images/Co2%20GDP%20Grid.png)This Chart shows Co2 Per GDP by country in Grid view. 
 
