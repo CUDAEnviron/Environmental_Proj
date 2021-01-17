@@ -11,29 +11,19 @@ Gross domestic product (GDP) is the total monetary or market value of all the fi
 
 This project’s goal is to show, using historical GDP and CO2 emissions data, the correlation between economic growth and CO2 emissions.  We aim to identify the current and long-term impact of climate change on economic activity across countries, and ultimately recognize economic gains from reducing carbon footprint. 
 
-# Dashboard
-The images below are pictures of some of the dashboard elements already completed using Tableau.  The charts are interactive on Tableau in that a viewer is able to see additional information from a pop up when the cursor hovers over an element.
+### Applicability
+
+This analysis is applicable to the general public as well as many companies in various industries like automobile, fossil fuel extraction, food processing, chemicals, etc. that cause an increase in atmospheric greenhouse gases. It provides and overview of how rise in CO2 levels is causing a rise in average temperatures by country, which is the reason for all the adverse effects on various life forms including humans on Earth.
+## Dashboard
+The visualizations for this project can be found on Tableau
 
 [Dashboard](https://public.tableau.com/profile/kamrul7767#!/?newProfile=&activeTab=0)
 
-# Presentation
+## Presentation/Project Outline
 A description of the selected topic, data exploration, data analysis, and conclusion can be found in the google slides for our presentation:
 
 [Presentation](https://docs.google.com/presentation/d/1QSeTHzu5lJcCZ3nt-1JJPHDhVycquPNRZLXf4xkHaJw/edit?ts=5fff77e5#slide=id.gb4ee2b59c2_0_82)
 
-### Applicability
-
-This analysis is applicable to the general public as well as many companies in various industries like automobile, fossil fuel extraction, food processing, chemicals, etc. that cause an increase in atmospheric greenhouse gases. It provides and overview of how rise in CO2 levels is causing a rise in average temperatures by country, which is the reason for all the adverse effects on various life forms including humans on Earth.
-
-### Data Source 
-
-We used two main sources of data for this project:
-
- - OWID-co2-data.csv 
-   - A dataset on CO2 and greenhouse gas emissions compiled by Hannah Ritchie, Max Roser and Edouard Mathieu for Our World in Data, a website that compiles research and data “to make progress against the world’s largest problems.”
-   
-- clean_Global_temps_1901_to_2016.csv
-  - A dataset on that tracks the average yearly temperature in Celsius for each country over the last 115 years.  Downloaded from the Climate Change Knowledge Portal of the World Bank Group
 
 # Machine Learning Model
 
@@ -50,6 +40,16 @@ We chose a balanced random forest model classifier for this analysis. A BRM was 
 A BRM is an ensemble classifier that works by combining multiple decision tree algorithms to improve accuracy. A random forest model randomly selects a subset of features from the training set and fits a decision tree to each one. By choosing different features for each tree, each tree is independent and improves the ensemble prediction. The Balanced RF works by performing a random undersampling of the majority class to correct any imbalance between classes. In this case, there was not an extreme imbalance between classes to begin with, but every little bit helps to improve accuracy.  
 ### Model Validation
 Using the test data to validate the model shows that this model performs with 99% accuracy. The classification report, furthermore, shows that there is high accuracy for both the high and low classes, for a well-balanced model.
+
+## Data Source 
+
+We used two main sources of data for this project:
+
+ - OWID-co2-data.csv 
+   - A dataset on CO2 and greenhouse gas emissions compiled by Hannah Ritchie, Max Roser and Edouard Mathieu for Our World in Data, a website that compiles research and data “to make progress against the world’s largest problems.”
+   
+- clean_Global_temps_1901_to_2016.csv
+  - A dataset on that tracks the average yearly temperature in Celsius for each country over the last 115 years.  Downloaded from the Climate Change Knowledge Portal of the World Bank Group  
 
 
 ## Technology use for Climate Change project
