@@ -22,7 +22,7 @@ The visualizations for this project can be found on Tableau
 ## Presentation/Project Outline
 A description of the selected topic, data exploration, data analysis, and conclusion can be found in the google slides for our presentation:
 
-[Presentation](https://docs.google.com/presentation/d/1QSeTHzu5lJcCZ3nt-1JJPHDhVycquPNRZLXf4xkHaJw/edit?ts=5fff77e5#slide=id.gb4ee2b59c2_0_82)
+[Presentation](https://docs.google.com/presentation/d/1QSeTHzu5lJcCZ3nt-1JJPHDhVycquPNRZLXf4xkHaJw/edit?ts=5fff77e5#slide=id.p)
 
 
 # Machine Learning Model
