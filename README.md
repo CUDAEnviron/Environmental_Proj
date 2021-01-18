@@ -4,6 +4,8 @@
 
 The below video shows a historical view of Co2 for GDP starting with 1952 to 2016 for all countries. 
 
+<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:51.15%;position:relative;"><iframe width="260" height="133" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/4u80dm"></iframe></div><p><a href="https://imgflip.com/gif/4u80dm">via Imgflip</a></p></div>
+
 https://public.flourish.studio/visualisation/4989681/
 
 ## The below charts show summary data of our analysis of the Co2 data as it relates to GDP. 
