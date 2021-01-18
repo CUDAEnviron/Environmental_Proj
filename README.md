@@ -2,6 +2,10 @@
 
 # Charts
 
+The below video shows a historical view of Co2 for GDP starting with 1952 to 2016 for all countries. 
+
+https://public.flourish.studio/visualisation/4989681/
+
 ## The below charts show summary data of our analysis of the Co2 data as it relates to GDP. 
 
 
