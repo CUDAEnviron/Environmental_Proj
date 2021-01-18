@@ -1,0 +1,7 @@
+ ## Packages and libraries needed to successfully run the code. 
+ 
+ - PostgreSQL driver for Python — Psycopg
+ - Pandas library 
+ - warning control library 
+ - Python sklearn.metrics Module 
+ - Imbalanced learning imblearn python package
