@@ -51,7 +51,9 @@ Here is the ERD of our database:
 #### Preliminary Data Cleaning and Preprocessing
 After importing both tables from the database and converting them to dataframes in the ML_model notebook, each dataframe was cleaned before being merged for initial analysis. In the CO2 data, the NAs were dropped, as well as any entries in the ‘country’ column that didn’t represent an actual country.  A new clean CO2 dataframe was created with only the most relevant columns.  The temperature data was cleaned as well, and then merged with the clean CO2 data.  This combined dataset was then examined to establish if there is a correlation between CO2 emissions and a country’s GDP output.  
 
-To determine a baseline for whether a country is a disproportionate polluter, we broke out the data for 2016, the most recent year in the dataset. We exported it as a CSV to get a full look at the data and pick a baseline for "bad" ratio of GDP to CO2 per capita.  After looking at the 2016 data in Excel, a new column is created to indicate CO2 production per unit of GDP, by dividing 'co2 per capita' by 'gdp per capita' (multiplied by 100000 to make the result more readable). A baseline of 300 is chosen, as a cursory analysis shows that numbers between the max and 300 encapsulate countries with economies known to pollute, as well as some countries that are a surprise, so it seems like a good place to begin our analysis. So, countries with a ratio of CO2 to GDP over 300, will be labeled as 'High' and those below 300 will be labeled as 'Low’ in the ‘emission_ratio’ column.
+To determine a baseline for whether a country is a disproportionate polluter, we broke out the data for 2016, the most recent year in the dataset. We exported it as a CSV to get a full look at the data and pick a baseline for "bad" ratio of GDP to CO2 per capita.  After looking at the 2016 data in Excel, a new column is created to indicate CO2 production per unit of GDP, by dividing 'co2' by 'gdp per capita' (multiplied by 100000 to make the result more readable). By calculating the CO2 produced for each unit of GDP_per_Capita, it establishes a ratio of pollution to production.  A high ratio means that pollution is outstripping production, which shows that while an economy may be economically robust, it can be environmentally destructive.  
+
+A baseline of 300 is chosen, as a cursory analysis shows that numbers between the max and 300 encapsulate countries with economies known to pollute, as well as some countries that are a surprise, so it seems like a good place to begin our analysis. So, countries with a ratio of CO2 to GDP over 300, will be labeled as 'High' and those below 300 will be labeled as 'Low’ in the ‘emission_ratio’ column.
 
 ![emissionsratio.PNG](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/emissionsratio.PNG)
 
@@ -87,9 +89,11 @@ To find the countries that performed the best, the good job dataframe was filter
 ### Conclusions
 
 Saudi Arabia is determined to be the country that has increased emissions the MOST over time.  Saudi Arabia’s CO2 emissions have increased by 178 million tons from 1950 to 2016.  Even though their GDP increased by over 40,000, they had the most significant increase in emissions in this dataset over time.
+
 ![co2%20chart.PNG](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/co2%20chart.PNG)
 
 Afghanistan is determined to be the only country that has both decreased GDP output over time AND increased co2 emissions over time.  Afghanistan made negative gains in GDP over time at -697 and increased CO2 emissions by 2 million tons.  This CO2 increase is certainly not as significant as Saudi Arabia’s increase, but it is significant that Afghanistan has also decreased economic output while increasing emissions.
+
 ![gdp%20change.PNG](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/gdp%20change.PNG)
 
 12 countries were able to increase GDP output AND decrease CO2 output over the time span of this dataset.  Luxembourg performed the best out of these.
