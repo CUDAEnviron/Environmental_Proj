@@ -12,11 +12,11 @@ Can a country make gains in terms of GDP without correlating gains in CO2 emissi
 ## Project Dashboard
 To view our project presentation slides, or the project dashboard on Tableau, please click the links below:
 
-[Presentation]( https://docs.google.com/presentation/d/1QSeTHzu5lJcCZ3nt-1JJPHDhVycquPNRZLXf4xkHaJw/edit?ts=5fff77e5#slide=id.p)
+[Presentation](https://docs.google.com/presentation/d/1QSeTHzu5lJcCZ3nt-1JJPHDhVycquPNRZLXf4xkHaJw/edit?ts=5fff77e5#slide=id.p)
 
 [Dashboard](https://public.tableau.com/profile/kamrul7767#!/?newProfile=&activeTab=0)
 
-Or continue reading for a project overview.
+Or continue reading for a project overview.  The Tableau charts are also shown at the bottom of this document.
 
 ## Project Overview
 ### Data Source 
@@ -132,16 +132,3 @@ Tableau and Flourish were used to create visualizations and host the dashboard.
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Bar%20Chart_Map_2016.png)This Chart shows Co2 Per GDP by country in a map view.
 
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Dashboard.png)This Chart shows a dashboard of Co2 Per GDP by country.
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/co2%20chart.png)
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/emissionsratio.png)
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/gdp%20change.png)
-
-![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/winners.png)
-
- 
- 
-
-
