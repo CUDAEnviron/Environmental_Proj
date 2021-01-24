@@ -9,7 +9,6 @@ https://public.flourish.studio/visualisation/4989681/
 
 ## The below charts show summary data of our analysis of the Co2 data as it relates to GDP. 
 
-
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Bar%20Chart_2016.png)This Chart shows Co2 Per GDP by country.
 
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Bar%20Chart_2016_Desc.png)This Chart shows Co2 Per GDP by country in Descending Order. 
@@ -27,7 +26,14 @@ https://public.flourish.studio/visualisation/4989681/
 
 ![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Dashboard.png)This Chart shows a dashboard of Co2 Per GDP by country.
 
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/co2%20chart.png)
 
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/emissionsratio.png)
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/gdp%20change.png)
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/winners.png)
 =======
 
 # Selected topic – Climate Change
