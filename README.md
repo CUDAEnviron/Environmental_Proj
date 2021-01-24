@@ -76,18 +76,20 @@ Using the test data to validate the model shows that this model performs with 99
 
 In the <b>High_Low_analysis.ipynb</b> notebook, final analysis is done to answer the question of whether a country could grow their economy without disproportionately polluting the earth.  This code performs and analysis on the High and Low groups that were established in the data exploration phase.  A for-loop is written that will loop through each country, and determine the GDP per Capita, Emission Ratio, CO2, and the Temperature for the first and last year available in the dataset.  A calculation is then done to determine the change over time for each of these indicators.  This code will separate all the countries in the dataset into groups depending on how their Emission Ratio changed over time.  Either Low to Low, High to Low, Low to High, or High to High.   It will also show how much GDP has increased or decreased, the change in CO2 output, and how the temperature has fluctuated over the time span given for each country.
 
-The result is 4 dataframes.  The Low to Low and High to Low dataframes are merged into a new dataframe called Good_job, because these countries have either maintained a low ratio or improved their ratio over the time span available.  These countries have done a good job.  The Low to High and High to High dataframes are merged into a new dataframe called Bad job, because these countries have either shown deteriorating emissions ratios or just maintained a high ratio over time.  These two dataframes can then be used to find the countries that performed the worst and best over time.
+The result is 4 dataframes.  The Low to Low and High to Low dataframes are merged into a new dataframe called good_job, because these countries have either maintained a low ratio or improved their ratio over the time span available.  These countries have done a good job.  The Low to High and High to High dataframes are merged into a new dataframe called bad_job, because these countries have either shown deteriorating emissions ratios or just maintained a high ratio over time.  These two dataframes can then be used to find the countries that performed the worst and best over time.
 
-The worst polluters were determined by sorting the Bad-job dataframe by CO2 change from highest to lowest. These countries have increased CO2 emissions the most over the time span of the dataframe.
-To find the countries that had both poor emissions ratios and decreased GDP over time, the bad job dataframe was sorted by GDP change from least to most.  These countries made the least gains in GDP, while either increasing CO2 output or not decreasing it enough to improve their emission ratio over time.
+The worst polluters were determined by sorting the bad_job dataframe by CO2 change from highest to lowest. These countries have increased CO2 emissions the most over the time span of the dataframe.
+
+To find the countries that had both poor emissions ratios and decreased GDP over time, the bad_job dataframe was sorted by GDP change from least to most.  These countries made the least gains in GDP, while either increasing CO2 output or not decreasing it enough to improve their emission ratio over time.
+
 To find the countries that performed the best, the good job dataframe was filtered to only include those countries that have increased GDP per Capita AND decreased CO2 output.  This was determined by only including countries with a positive GDP change over time, and a negative CO2 change over time. The result was a dataframe with 12 countries.
 
 ### Conclusions
 
-Saudi Arabia is determined to be the country that has increased emissions the MOST over time.  Saudi Arabia’s CO2 emissions have increased by 178 million tons from 1950 to 2016.  Even though their GDP increased by over 40,000, but they had the most significant increase in emissions in this dataset over time.
+Saudi Arabia is determined to be the country that has increased emissions the MOST over time.  Saudi Arabia’s CO2 emissions have increased by 178 million tons from 1950 to 2016.  Even though their GDP increased by over 40,000, they had the most significant increase in emissions in this dataset over time.
 ![co2%20chart.PNG](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/co2%20chart.PNG)
 
-Afghanistan is determined to be the only country that has both decreased GDP output over time AND increased co2 emissions over time.  Afghanistan made negative gains in GDP over time at -697 and increased co2 emissions by 2 million tons over time.  This co2 increase is certainly not as significant as Saudi Arabia’s increase, but it is significant that Afghanistan has also decreased economic output while increasing emissions.
+Afghanistan is determined to be the only country that has both decreased GDP output over time AND increased co2 emissions over time.  Afghanistan made negative gains in GDP over time at -697 and increased CO2 emissions by 2 million tons.  This CO2 increase is certainly not as significant as Saudi Arabia’s increase, but it is significant that Afghanistan has also decreased economic output while increasing emissions.
 ![gdp%20change.PNG](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/gdp%20change.PNG)
 
 12 countries were able to increase GDP output AND decrease CO2 output over the time span of this dataset.  Luxembourg performed the best out of these.
@@ -102,9 +104,13 @@ With more time we would like to perform another analysis that includes some of t
 
 ### Technologies Used
 We used Jupyter Notebook to compose code written in Python, utilizing the Pandas software library for analysis.
+
 Our data was stored in two tables on a PostgreSQL database hosted by Heroku.
+
 A Balanced Random Forest classification model from the Scikit Learn library was used to analyze the data.
+
 Tableau and Flourish were used to create visualizations and host the dashboard.
+
 <b>Requirements.txt</b> shows the required packages and libraries needed to run this code. 
  
 
