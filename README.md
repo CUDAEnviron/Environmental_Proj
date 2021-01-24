@@ -12,6 +12,31 @@ Can a country make gains in terms of GDP without correlating gains in CO2 emissi
 ## Project Dashboard
 To view our project presentation slides, or the project dashboard on Tableau, please click the links below:
 
+## The below charts show summary data of our analysis of the Co2 data as it relates to GDP. 
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Bar%20Chart_2016.png)This Chart shows Co2 Per GDP by country.
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Bar%20Chart_2016_Desc.png)This Chart shows Co2 Per GDP by country in Descending Order. 
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Bar%20Chart_Top10_2016.png)This Chart shows Co2 Per GDP by country (Top 10 Countries)
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Box%20Grid_2016.png)This Chart shows Co2 Per GDP by country in Grid view. 
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Bar%20Chart_Historical.png)This Chart shows a historical view of Co2 Per GDP by country.
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Co2%20Per%20GDP%20Bar%20Chart_Map_2016.png)This Chart shows Co2 Per GDP by country in a map view.
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/Dashboard.png)This Chart shows a dashboard of Co2 Per GDP by country.
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/co2%20chart.png)
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/emissionsratio.png)
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/gdp%20change.png)
+
+![](https://github.com/CUDAEnviron/Environmental_Proj/blob/Kam_branch/Updated%20Images/winners.png)
+=======
+=======
 [Presentation]( https://docs.google.com/presentation/d/1QSeTHzu5lJcCZ3nt-1JJPHDhVycquPNRZLXf4xkHaJw/edit?ts=5fff77e5#slide=id.p)
 
 [Dashboard](https://public.tableau.com/profile/kamrul7767#!/?newProfile=&activeTab=0)
@@ -51,7 +76,12 @@ Here is the ERD of our database:
 #### Preliminary Data Cleaning and Preprocessing
 After importing both tables from the database and converting them to dataframes in the ML_model notebook, each dataframe was cleaned before being merged for initial analysis. In the CO2 data, the NAs were dropped, as well as any entries in the ‘country’ column that didn’t represent an actual country.  A new clean CO2 dataframe was created with only the most relevant columns.  The temperature data was cleaned as well, and then merged with the clean CO2 data.  This combined dataset was then examined to establish if there is a correlation between CO2 emissions and a country’s GDP output.  
 
+
+## Presentation/Project Outline - Final
+A description of the selected topic, data exploration, data analysis, and conclusion can be found in the google slides for our presentation:
+=======
 To determine a baseline for whether a country is a disproportionate polluter, we broke out the data for 2016, the most recent year in the dataset. We exported it as a CSV to get a full look at the data and pick a baseline for "bad" ratio of GDP to CO2 per capita.  After looking at the 2016 data in Excel, a new column is created to indicate CO2 production per unit of GDP, by dividing 'co2' by 'gdp per capita' (multiplied by 100000 to make the result more readable). By calculating the CO2 produced for each unit of GDP_per_Capita, it establishes a ratio of pollution to production.  A high ratio means that pollution is outstripping production, which shows that while an economy may be economically robust, it can be environmentally destructive.  
+
 
 A baseline of 300 is chosen, as a cursory analysis shows that numbers between the max and 300 encapsulate countries with economies known to pollute, as well as some countries that are a surprise, so it seems like a good place to begin our analysis. So, countries with a ratio of CO2 to GDP over 300, will be labeled as 'High' and those below 300 will be labeled as 'Low’ in the ‘emission_ratio’ column.
 
