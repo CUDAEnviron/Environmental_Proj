@@ -29,7 +29,7 @@ We used two main sources of data for this project:
   - A dataset on that tracks the average yearly temperature in Celsius for each country over the last 115 years.  Downloaded from the Climate Change Knowledge Portal of the World Bank Group.  [World Bank Group](https://climateknowledgeportal.worldbank.org/download-data)
 
 ### Database
-We are using a Postgres SQL database hosted by Heroku for our project.
+We are using a multi-user Postgres SQL database hosted by Heroku for our project.
 
 Here is the ERD of our database:
 ![ERD.png](https://github.com/CUDAEnviron/Environmental_Proj/blob/main/Updated%20Images/ERD.png)
