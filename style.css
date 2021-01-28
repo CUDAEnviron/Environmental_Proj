@@ -4,7 +4,7 @@ body {
 }
 .jumbotron {
     color: black;
-    background-image: url("../../updated%20images/Co2%20Per%20GDP%20Map_2016.png");
+    background-image: url("Co2_Per_GDP_Map_2016.png");
     background-size:  100% 100%;
     text-align: center;
     height: 300px;
