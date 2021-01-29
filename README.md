@@ -1,4 +1,4 @@
-# Climate Change and Economic Growth
+# Climate Change and GDP
 
 Climate change has become a significant problem that affects the very existence of life on the planet. Climate change is caused by human activity and the growth of industry over the last century. Global warming is the long-term heating of Earth’s climate system observed since the pre-industrial period. It’s causes are primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth’s atmosphere. This has caused a dramatic increase of temperatures on both land and water surfaces, meltdown of ice caps, rise in sea levels, increase in the magnitude and frequency of hurricanes, and extinction of many species. It is hoped that these adverse effects can be slowed down or reversed with changes in human activity and proper education. 
 
